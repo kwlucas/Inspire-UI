@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import reportWebVitals from './lib/reportWebVitals';
 
+//function component
 function HelloWorld(props) {
     return (
     <div>
@@ -10,6 +11,10 @@ function HelloWorld(props) {
     </div>)
 };
 
+//classes can be used to create a component as well.
+//Class components utilize states which can be initialized in the class constructor as an object called "state"
+//You can also place props in the constructor of class components
+//Using subclasses (extending a class) you can create components which use their parent components inside of it
 
 const element = <HelloWorld name="Kyle" />
 
